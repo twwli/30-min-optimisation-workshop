@@ -9,8 +9,8 @@ En travaillant sur un petit site statique réel, les participants analyseront so
 https://workshops.olivierguillard.dev/
 
 ## Outils
-https://www.ecoindex.fr
-https://www.websitecarbon.com 
-https://pagespeed.web.dev 
-https://squoosh.app
+https://www.ecoindex.fr <br />
+https://www.websitecarbon.com <br />
+https://pagespeed.web.dev <br />
+https://squoosh.app <br />
 https://github.com/cnumr/best-practices?tab=readme-ov-file 
