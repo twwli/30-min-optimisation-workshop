@@ -13,4 +13,8 @@ https://www.ecoindex.fr <br />
 https://www.websitecarbon.com <br />
 https://pagespeed.web.dev <br />
 https://squoosh.app <br />
-https://github.com/cnumr/best-practices?tab=readme-ov-file 
+https://github.com/cnumr/best-practices?tab=readme-ov-file <br />
+https://caniuse.com
+
+## Inspiration
+https://lowww.directory
