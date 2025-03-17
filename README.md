@@ -11,10 +11,16 @@ https://workshops.olivierguillard.dev/
 ## Outils
 https://www.ecoindex.fr <br />
 https://www.websitecarbon.com <br />
+https://ecograder.com <br />
+https://withcabin.com/how-green-is-your-website?<br />
 https://pagespeed.web.dev <br />
 https://squoosh.app <br />
-https://github.com/cnumr/best-practices?tab=readme-ov-file <br />
 https://caniuse.com
 
-## Inspiration
-https://lowww.directory
+## Resources
+https://workshops.olivierguillard.dev/article-eco-conception-web.pdf <br />
+https://sustainablewebdesign.org <br />
+https://www.sustainablewebmanifesto.com <br />
+https://github.com/cnumr/best-practices?tab=readme-ov-file <br />
+https://lowww.directory <br />
+
