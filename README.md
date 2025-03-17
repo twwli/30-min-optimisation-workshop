@@ -1,4 +1,5 @@
-Ce repo Github sert de base pour le workshop Shadok: <br />
+Ce repo Github sert de base pour le workshop Shadok:
+
 🌱 Atelier éco-conception : réduire l'empreinte d'un site web
 
 En travaillant sur un petit site statique réel, les participants analyseront son code (HTML, CSS, JavaScript) et son éco-index. Puis, à travers de petites optimisations, ils amélioreront eux-mêmes sa performance environnementale.
@@ -15,6 +16,7 @@ https://ecograder.com <br />
 https://withcabin.com/how-green-is-your-website?<br />
 https://pagespeed.web.dev <br />
 https://squoosh.app <br />
+https://www.minifier.org <br />
 https://caniuse.com
 
 ## Resources
