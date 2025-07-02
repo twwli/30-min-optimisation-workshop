@@ -80,13 +80,13 @@ html:focus-within {
 Theme Custom Style
 ========================================================================== */
 
-/* @font-face {
+@font-face {
   font-family: 'DM Sans';
   src: url('../fonts/DMSans-Variable.ttf') format('truetype');
   font-weight: 100 700; /* Intervalle de graisses disponibles */
-  /* font-style: normal;
+  font-style: normal;
   font-display: swap;
-} */
+}
 
 :root {
     --black: #271F1F;

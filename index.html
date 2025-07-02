@@ -18,15 +18,9 @@
     <meta name="theme-color" content="#F03D2E">
 
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="icon" href="img/favicon.png">
+	<link rel="icon" href="img/favicon.svg">
     
-    <link rel='dns-prefetch' href='//code.jquery.com' />
     <link rel='stylesheet' id='gal-stylesheet-css' href='css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flickity-stylesheet-css' href='css/flickity.css' type='text/css' media='all' />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7826eec157.js" crossorigin="anonymous"></script>
 </head>
 	
 <body id="home-page" class=" home page-template page-template-template-homepage page-template-template-homepage-php page page-id-8">
@@ -38,7 +32,7 @@
     <header id="header" class="header">
         <div class="container">
 			<a id="logo" href="/" rel="nofollow">
-                <img width="74" height="74" src="img/logo-gal.png" />
+			    <svg fill="none" height="73" viewBox="0 0 73 73" width="73" xmlns="http://www.w3.org/2000/svg"><path d="m73 36.5c0 20.1525-16.3475 36.5-36.5 36.5s-36.5-16.334-36.5-36.5 16.3475-36.5 36.5-36.5 36.5 16.334 36.5 36.5z" fill="#f03d2e"/><path d="m52.0429 43.2618v-18.5387h-4.7931v19.3717l-7.039-19.4289h-5.1023l-4.7605 13.1323v-3.7159h-8.6992v4.8102h3.9061v2.5154c-4.1584 4.9573-13.0365 1.6579-12.8005-4.9491-.0407-4.0671 3.3934-7.4236 7.3483-7.3746 1.8798 0 3.7595.7187 5.1918 2.1642l3.3852-3.3974c-2.368-2.3847-5.4766-3.5771-8.577-3.5771-3.2144.0082-6.266 1.2414-8.5853 3.5689-10.37546 10.5516 3.7271 27.1302 15.7464 18.457l-.6429 1.7722h5.1023l5.9405-16.3744 2.8807 7.9381h-2.1809l-.2278.7187-1.18 3.7731h5.2081l1.4322 3.9364h20.2791v-4.8103h-11.8322z" fill="#f6f5f3"/></svg>
 			</a>
 			
 			<nav role="navigation">
@@ -72,28 +66,34 @@
             </div>
         </section>
     
+        <!-- Section Carousel -->
         <section class="home-slider">
-            <div class="main-carousel">
-                <div class="carousel-cell">
-                    <div class="carousel-img">
-                        <img width="1946" height="1280" src="img/slide-1.jpg" class="slide-img" alt="Smart Kitchen" decoding="async" />      
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <div class="slider-cell">
+                        <div class="slider-img">
+                            <img width="1946" height="1280" src="img/slide-1.webp" class="slide-img" alt="Smart Kitchen" decoding="async" 
+                        srcset="img/slide-1.webp 1952w, img/slide-1-300x197.webp 300w, img/slide-1-1024x674.webp 1024w, img/slide-1-768x505.webp 768w, img/slide-1-1536x1010.webp 1536w" sizes="(max-width: 1946px) 100vw, 1946px" />      
+                        </div>
+                        <h4>Home Automation</h4>
                     </div>
-                    <h4>Home Automation</h4>
-                </div>
-                <div class="carousel-cell">
-                    <div class="carousel-img">
-                        <img width="1950" height="1280" src="img/slide-2.jpg" class="slide-img" alt="Commercial Office Lighting" decoding="async" />      
+                    <div class="slider-cell">
+                        <div class="slider-img">
+                            <img width="1950" height="1280" src="img/slide-2.webp" class="slide-img" alt="Commercial Office Lighting" decoding="async" 
+                            srcset="img/slide-2.webp 1950w, img/slide-2-300x197.webp 300w, img/slide-2-1024x672.webp 1024w, img/slide-2-768x504.webp 768w, img/slide-2-1536x1008.webp 1536w" sizes="(max-width: 1950px) 100vw, 1950px" />      
+                        </div>
+                        <h4>Commercial Lighting</h4>
                     </div>
-                    <h4>Commercial Lighting</h4>
-                </div>
-                <div class="carousel-cell">
-                    <div class="carousel-img">
-                        <img width="1950" height="1280" src="img/slide-3.jpg" class="slide-img" alt="sonos sound system" decoding="async" />      
+                    <div class="slider-cell">
+                        <div class="slider-img">
+                            <img width="1950" height="1280" src="img/slide-3.webp" class="slide-img" alt="sonos sound system" decoding="async" 
+                            srcset="img/slide-3.webp 1950w, img/slide-3-300x197.webp 300w, img/slide-3-1024x672.webp 1024w, img/slide-3-768x504.webp 768w, img/slide-3-1536x1008.webp 1536w" sizes="(max-width: 1950px) 100vw, 1950px" />      
+                        </div>
+                        <h4>Sound Systems</h4>
                     </div>
-                    <h4>Sound Systems</h4>
                 </div>
             </div>
-        </section>	
+        </section>
         
         <!-- Section À Propos -->
         <section class="home-about container">
@@ -102,16 +102,16 @@
             </div>
             <div class="img-row flex space-between">
                 <div>
-                    <img class="row-img" width="550" height="760" src="img/about-1.jpg"  alt="Coffe Maker" loading="lazy" decoding="async" />    
+                    <img class="row-img" width="550" height="760" src="img/about-1.webp"  alt="Coffe Maker" loading="lazy" decoding="async" srcset="img/about-1.webp 550w, img/about-1-217x300.webp 217w" sizes="auto, (max-width: 550px) 100vw, 550px" />    
                 </div>
                 <div>
-                    <img class="row-img" width="550" height="760" src="img/about-2.jpg" class="row-img" alt="Kef Blade Speaker" loading="lazy" decoding="async" />
+                    <img class="row-img" width="550" height="760" src="img/about-2.webp" class="row-img" alt="Kef Blade Speaker" loading="lazy" decoding="async" srcset="img/about-2.webp 550w, img/about-2-217x300.webp 217w" sizes="auto, (max-width: 550px) 100vw, 550px" />
                 </div>
                 <div>
-                    <img class="row-img" width="550" height="760" src="img/about-3.jpg" class="row-img" alt="Lutron Lighting" loading="lazy" decoding="async" />    
+                    <img class="row-img" width="550" height="760" src="img/about-3.webp" class="row-img" alt="Lutron Lighting" loading="lazy" decoding="async" srcset="img/about-3.webp 550w, img/about-3-217x300.webp 217w" sizes="auto, (max-width: 550px) 100vw, 550px" />    
                 </div>
                 <div>
-                    <img class="row-img" width="550" height="760" src="img/about-4.jpg" class="row-img" alt="Alisse Control Panel" loading="lazy" decoding="async" />    
+                    <img class="row-img" width="550" height="760" src="img/about-4.webp" class="row-img" alt="Alisse Control Panel" loading="lazy" decoding="async" srcset="img/about-4.webp 550w, img/about-4-217x300.webp 217w" sizes="auto, (max-width: 550px) 100vw, 550px" />    
                 </div>
             </div>
         </section>
@@ -122,31 +122,31 @@
             <h3>Trusted by leading brands</h3>     
                 <div class="flex space-between">
                     <a href="#" title="KEF" target="_blank" rel="nofollow">
-                        <img src="img/logo-kef.png" class="marquee-logo" alt="Kef Logo" decoding="async" />
+                        <img src="img/logo-kef.svg" alt="Kef Logo" decoding="async" />
                     </a>
                     
                     <a href="#" title="Sonos" target="_blank" rel="nofollow">
-                        <img src="img/logo-sonos.jpg" class="marquee-logo" alt="" decoding="async" />
+                        <img src="img/logo-sonos.svg" alt="Sonos Logo" decoding="async" />
                     </a>
                     
                     <a href="#" title="LG Electronics" target="_blank" rel="nofollow">
-                        <img src="img/logo-lg.png" class="marquee-logo" alt="Logo LG Electronics" decoding="async" />
+                        <img src="img/logo-lg.svg" alt="Logo LG Electronics" decoding="async" />
                     </a>
                     
                     <a href="#" title="Hickvision" target="_blank" rel="nofollow">
-                        <img src="img/logo-hikvision.png" class="marquee-logo" alt="Logo Hickvision" decoding="async" />
+                        <img src="img/logo-hikvision.svg" alt="Logo Hickvision" decoding="async" />
                     </a>
                     
                     <a href="#" title="Lutron" target="_blank" rel="nofollow">
-                        <img src="img/logo-lutron.png" class="marquee-logo" alt="Logo Lutron" decoding="async" />
+                        <img src="img/logo-lutron.svg" alt="Logo Lutron" decoding="async" />
                     </a>
                     
                     <a href="#" title="RTI" target="_blank" rel="nofollow">
-                        <img src="img/logo-rti.png" class="marquee-logo" alt="Logo RTI" decoding="async" />
+                        <img src="img/logo-rti.svg" alt="Logo RTI" decoding="async" />
                     </a>
                     
                     <a href="#" title="Ubiquiti" target="_blank" rel="nofollow">
-                        <img src="img/logo-ubiquiti.png" class="marquee-logo" alt="Logo Ubiquiti" decoding="async" />
+                        <img src="img/logo-ubiquiti.svg" alt="Logo Ubiquiti" decoding="async" />
                     </a>        
                 </div>
            
@@ -179,9 +179,15 @@
             </nav>
         </div>
         <div class="footer-right flex">
-            <a href="#" target="_blank" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a>
-            <a href="#" target="_blank" rel="nofollow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" rel="nofollow">
+                <svg width="12" height="" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+            </a>
+            <a href="#" target="_blank" rel="nofollow">
+                <svg width="19" height="" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+            <a href="#" target="_blank" rel="nofollow">
+                <svg width="18" height="" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+            </a>
         </div>
     </footer>
 
@@ -212,8 +218,6 @@
   </div>
 </div>  		
 
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/library.js" id="library-js-js"></script>
 <script type="text/javascript" src="js/scripts.js" id="gal-js-js"></script>
 </body>
 
